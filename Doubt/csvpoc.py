@@ -34,3 +34,5 @@ def read_from_csv(filename):
 # print(emp_object_file)
 emp_object = Emp(1,100)
 write_to_csv(emp_object,"poc.csv")
+
+
