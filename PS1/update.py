@@ -4,7 +4,7 @@ class Update:
         self.new_price = new_price
 
     def __str__(self):
-        return f"name of the product{self.name}, price of the product{self.new_price}"
+        return f"name of the product{self.name}, price of the product {self.new_price}"
 
 
 

@@ -16,7 +16,7 @@ def get_employee(empno : Employee):
     employee = logic.get_employee(empno)
     if employee:
         return {
-            "empno": employee[0],
+            "empno": employee[0],    
             "empname": employee[1],
             "location": employee[2],
             "deptid": employee[3]

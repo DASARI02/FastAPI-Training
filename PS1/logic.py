@@ -1,7 +1,7 @@
 from product import Product
 class Logic:
     def __init__(self):
-        self.products = [Product(1,"Maggie",20)]  
+        self.products = []  
 
     def add_product(self,new_product):
         for i in self.products:

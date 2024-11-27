@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     print(a.add_product(p1))
     print(a.add_product(p2))
-    print(a.add_product(p1))
+
 
     # # Create an Update object with the new name and price
     updated_product = Update("Veggie Pizza", 550)
@@ -48,4 +48,3 @@ print()
 for i in v:
     print(i)
 
-a.close()
