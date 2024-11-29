@@ -87,7 +87,7 @@ async def update(emp_id:int, updated_employee: Employee):
         raise HTTPException(status_code= status.HTTP_404_NOT_FOUND)
     
 
-@app.get("/search_by_first_name/{date_of_birth}", status_code= status.HTTP_200_OK)
+@app.get("/search_by_first_name/{first_name}", status_code= status.HTTP_200_OK)
 async def search_by_first_name(first_name: str):
     employee = main.first_name(first_name)
     if employee:
